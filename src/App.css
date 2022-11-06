@@ -1,4 +1,30 @@
-.App {
+body {
+  margin: 0;
+  position: relative;
+  display: block;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: greenyellow;
+}
+
+.title {
   text-align: center;
 }
 
+.container {
+  display: block;
+  float: left;
+  position: relative;
+  left: 7%;
+  width: 30%;
+  padding: 12px 12px 12px 12px;
+}
+
+.card {
+  display: flexbox;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  background-color: blue;
+}
